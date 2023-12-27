@@ -5,7 +5,17 @@ import SignupForm from "./_auth/SignupForm";
 import { Routes, Route } from "react-router-dom";
 import RootLayout from "./_root/RootLayout";
 import { Toaster } from "./components/ui/toaster";
-import { Home, Explorer, AllUsers, Saved, CreatePost, EditPost, PostDetails, Profile, UpdateProfile } from "./_root/pages/";
+import {
+  Home,
+  Explorer,
+  AllUsers,
+  Saved,
+  CreatePost,
+  EditPost,
+  PostDetails,
+  Profile,
+  UpdateProfile,
+} from "./_root/pages/";
 
 const App = () => {
   return (
